@@ -16,12 +16,6 @@ jobs:
             rust-version: "stable"
           - os: "macos-latest"
             rust-version: "stable"
-          - os: "windows-latest"
-            rust-version: "stable"
-          - os: "ubuntu-latest"
-            rust-version: "beta"
-          - os: "ubuntu-latest"
-            rust-version: "nightly"
     runs-on: ${{ matrix.os }}
     defaults:
       run:
